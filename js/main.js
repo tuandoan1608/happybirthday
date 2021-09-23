@@ -3,8 +3,8 @@ cusor = '+';
 
 count = 0;
 
-mess = 'Happy bẻthday to you! <br/>'
-+ 'Chúc em gái dễ thương của anh luôn được bình an trong tâm hồn, may mắn trong công việc nha ^^ <br/>'
+mess = 'Happy birthday to you! <br/>'
++ 'Chúc em gái dễ thương của anh luôn luôn xinh đẹp, may mắn trong công việc và có một tình yêu đẹp nha ^^ <br/>'
 +' Biết em dù chưa lâu nhưng mà anh quý em lắm đấy hehe <br/>'
 +'Luôn xinh đẹp nha bé....<br/>'
 + '<a>Nhấn vào <a href="page.html" id="nextpage">đây</a> nè ^^</a>';
@@ -15,7 +15,7 @@ function type() {
     $('#bg').css("-webkit-filter","blur(6px)");
     document.getElementById('scr').innerHTML = mess.substring(0, count++) + cusor;
 
-    if (count <= mess.length) setTimeout("type()", 1);
+    if (count <= mess.length) setTimeout("type()", 100);
     
 }
 $(document).ready(function () {
